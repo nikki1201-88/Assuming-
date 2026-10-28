@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nikki's Profile Card</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2f8;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #12203a;
+    color: white;
+    padding: 14px;
+    text-align: center;
+}
+.card {
+    width: 280px;
+    max-width: 95%;
+    margin: 24px auto;
+    background: white;
+    border: 2px solid #2f5bea;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+}
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #2f5bea;
+    color: white;
+    font-size: 36px;
+    line-height: 90px;
+    margin: auto;
+}
+.bio {
+    height: 80px;
+    overflow: auto;
+    text-align: left;
+    border: 1px solid #ccd;
+    padding: 8px;
+    margin-top: 12px;
+}
+.fab {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    width: 52px;
+    height: 52px;
+    border: 0;
+    border-radius: 50%;
+    background: #ffb703;
+    font-size: 26px;
+}
+</style>
+</head>
+<body>
+<header>Nikki Sagar - Profile Page</header>
+
+<div class="card">
+    <div class="avatar">N</div>
+    <h2>Nikki Sagar</h2>
+    <p>B.Tech CSE (AI) Student</p>
+    <div class="bio">
+        Hi! I am Nikki. I am learning web development.
+        I enjoy coding and building small websites.
+        My goal is to develop useful applications and improve
+        my technical skills.
+    </div>
+</div>
+
+<button class="fab" type="button">+</button>
+</body>
+</html>
